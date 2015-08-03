@@ -5,9 +5,10 @@
     <description>Plugin for Kii Cloud</description>
     <license>Apache 2.0</license>
     <keywords>kiicloud</keywords>
-    <asset
-        src="www/kiisdk.js"
-        target="js/kiisdk.js"/>
+    <js-module src="www/kiisdk.js"
+               name="kii">
+      <clobbers target="kii" />
+    </js-module>
     <platform name="android">
     </platform>
     <platform name="ios">
