@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="kiicloud-plugin" version="1.0.0">
+    <name>KiiCloudPlugin</name>
+    <description>Plugin for Kii Cloud</description>
+    <license>Apache 2.0</license>
+    <keywords>kiicloud</keywords>
+    <asset
+        src="www/kiisdk.js"
+        target="js/kiisdk.js"/>
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+    </platform>        
+</plugin>
